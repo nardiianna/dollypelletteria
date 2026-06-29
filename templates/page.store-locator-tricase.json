@@ -1,0 +1,411 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "breadcrumbs": true,
+        "show_page_title": true,
+        "page_title_alignment": "text-center",
+        "info_title": "",
+        "info_content": "",
+        "section_width": "max-w-narrower",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "page_banner_8QUBL7": {
+      "type": "page-banner",
+      "name": "t:sections.page-banner.name",
+      "settings": {
+        "enable_transparent_header": true,
+        "heading": "TRICASE <em>store</em>",
+        "heading_size": "h3",
+        "text": "",
+        "show_default_description": true,
+        "show_on_description": "desktop",
+        "content_position": "end",
+        "content_alignment": "start",
+        "media_position": "background",
+        "page_menu": "",
+        "enable_breadcrumbs": true,
+        "section_height": "50svh",
+        "content_width": "100%",
+        "image": "shopify://shop_images/46.png",
+        "video_external": "",
+        "show_controls_on_video": false,
+        "section_height_mobile": "50svh",
+        "video_external_mobile": "",
+        "show_controls_on_video_mobile": false,
+        "section_width": "max-w-narrow",
+        "color_scheme": "scheme-2",
+        "color_scheme_for_media": "scheme-2",
+        "spacing_top": "2",
+        "spacing_bottom": "6"
+      }
+    },
+    "carousel_eb3ytP": {
+      "type": "carousel",
+      "blocks": {
+        "card_AYimy9": {
+          "type": "card",
+          "settings": {
+            "heading": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "button--filled",
+            "aspect_ratio": "auto",
+            "color_scheme": "scheme-5",
+            "media_position": "background",
+            "content_position": "center",
+            "content_alignment": "center",
+            "image": "shopify://shop_images/imgi_3_PELLETTERIE-DOLLY-Tricase_P2-1-scaled.jpg",
+            "video_external": "",
+            "show_controls_on_video": false,
+            "content_position_mobile": "center",
+            "content_alignment_mobile": "center",
+            "video_external_mobile": "",
+            "show_controls_on_video_mobile": false,
+            "spacing_inner": "2"
+          }
+        },
+        "card_PUUVUt": {
+          "type": "card",
+          "settings": {
+            "heading": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "button--filled",
+            "aspect_ratio": "auto",
+            "color_scheme": "scheme-5",
+            "media_position": "background",
+            "content_position": "center",
+            "content_alignment": "center",
+            "image": "shopify://shop_images/imgi_7_PELLETTERIE-DOLLY-Tricase_P1-2-scaled.jpg",
+            "video_external": "",
+            "show_controls_on_video": false,
+            "content_position_mobile": "center",
+            "content_alignment_mobile": "center",
+            "video_external_mobile": "",
+            "show_controls_on_video_mobile": false,
+            "spacing_inner": "2"
+          }
+        },
+        "card_AaLgGV": {
+          "type": "card",
+          "settings": {
+            "heading": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "button--filled",
+            "aspect_ratio": "auto",
+            "color_scheme": "scheme-5",
+            "media_position": "background",
+            "content_position": "center",
+            "content_alignment": "center",
+            "image": "shopify://shop_images/imgi_61_PELLETTERIE-DOLLY-Tricase_P0-2-2048x1152.jpg",
+            "video_external": "",
+            "show_controls_on_video": false,
+            "content_position_mobile": "center",
+            "content_alignment_mobile": "center",
+            "video_external_mobile": "",
+            "show_controls_on_video_mobile": false,
+            "spacing_inner": "2"
+          }
+        },
+        "card_wPqLyi": {
+          "type": "card",
+          "settings": {
+            "heading": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "button--filled",
+            "aspect_ratio": "auto",
+            "color_scheme": "scheme-5",
+            "media_position": "background",
+            "content_position": "center",
+            "content_alignment": "center",
+            "image": "shopify://shop_images/imgi_9_PELLETTERIE-DOLLY-Tricase_P1-3-scaled.jpg",
+            "video_external": "",
+            "show_controls_on_video": false,
+            "content_position_mobile": "center",
+            "content_alignment_mobile": "center",
+            "video_external_mobile": "",
+            "show_controls_on_video_mobile": false,
+            "spacing_inner": "2"
+          }
+        },
+        "card_gYU4MW": {
+          "type": "card",
+          "settings": {
+            "heading": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "button--filled",
+            "aspect_ratio": "auto",
+            "color_scheme": "scheme-5",
+            "media_position": "background",
+            "content_position": "center",
+            "content_alignment": "center",
+            "image": "shopify://shop_images/imgi_11_PELLETTERIE-DOLLY-Tricase_P1-1-scaled.jpg",
+            "video_external": "",
+            "show_controls_on_video": false,
+            "content_position_mobile": "center",
+            "content_alignment_mobile": "center",
+            "video_external_mobile": "",
+            "show_controls_on_video_mobile": false,
+            "spacing_inner": "2"
+          }
+        }
+      },
+      "block_order": [
+        "card_AYimy9",
+        "card_PUUVUt",
+        "card_AaLgGV",
+        "card_wPqLyi",
+        "card_gYU4MW"
+      ],
+      "name": "t:sections.carousel.name",
+      "settings": {
+        "show_navigation_arrows": true,
+        "slideshow_autoplay_interval": 4,
+        "slides_per_view": 2,
+        "layout": "layout-1",
+        "heading": "Visualizza la <em>Gallery</em>",
+        "heading_size": "h3",
+        "subheading": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "button--filled",
+        "section_width": "max-w-page",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "seo_content_B4cN7a": {
+      "type": "seo-content",
+      "name": "t:sections.seo-content.name",
+      "settings": {
+        "section_layout": "normal",
+        "heading": "Vieni a trovarci a Tricase",
+        "heading_size": "h3",
+        "text": "<p>Vieni a scoprire le ultime novità, le collezioni di stagione e le imperdibili offerte outlet. Passa a trovarci nel nostro store di Tricase e lasciati guidare dal nostro team.</p>",
+        "content_alignment": "center",
+        "section_width": "max-w-narrower",
+        "color_scheme": "",
+        "spacing_inner": "2",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "seo_content_yE7riQ": {
+      "type": "seo-content",
+      "name": "t:sections.seo-content.name",
+      "settings": {
+        "section_layout": "normal",
+        "heading": "Corso Roma, 2 | Tricase",
+        "heading_size": "h4",
+        "text": "",
+        "content_alignment": "center",
+        "section_width": "max-w-narrower",
+        "color_scheme": "",
+        "spacing_inner": "2",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "blocks_pYQNrc": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_20cf082_8ixmGR": {
+          "type": "ai_gen_block_20cf082",
+          "settings": {
+            "map_embed_code": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.4939646019075!2d18.355682875959076!3d39.93033927152205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13440db7bbd82187%3A0xa6a77d64cb4fa130!2sCorso%20Roma%2C%202%2C%2073039%20Tricase%20LE!5e0!3m2!1sit!2sit!4v1782745651745!5m2!1sit!2sit\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>",
+            "map_height_desktop": 600,
+            "map_height_mobile": 400,
+            "desktop_width_percent": 100,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_20cf082_8ixmGR"
+      ],
+      "name": "Mappa geografica",
+      "settings": {}
+    },
+    "store_locator_tutti": {
+      "type": "store-locator",
+      "blocks": {
+        "pin_48RiTB": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "GALLIPOLI",
+            "store_address": "Corso Roma, 23",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_19_DSC07163-scaled_e8466013-121d-407a-9c47-8b3a305d4c0f.jpg",
+            "store_latitude": "48.85850418716008",
+            "store_longitude": "2.294803163425021",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_WMmyEb": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "NARDÒ",
+            "store_address": "Corso Galliano, 10",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_21_DSC05514_18724ab9-22ad-4397-8073-bfee2900a8cd.jpg",
+            "store_latitude": "48.85850418716008",
+            "store_longitude": "2.294803163425021",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_XCBFTC": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "MAGLIE",
+            "store_address": "Piazza Capace",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_22_DSC06908_f1692f96-7f6f-4912-a0ce-090ac46cf669.jpg",
+            "store_latitude": "48.85850418716008",
+            "store_longitude": "2.294803163425021",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_cPbRhn": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "TRICASE",
+            "store_address": "Corso Roma, 2",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_23_tricase-dolly-scaled.jpg",
+            "store_latitude": "48.85850418716008",
+            "store_longitude": "2.294803163425021",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_yfbmfj": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "GALATINA",
+            "store_address": "Piazza S. Pietro",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_20_DSC05512_476ed5d7-8a90-414c-96e7-67919c714f09.jpg",
+            "store_latitude": "48.85850418716008",
+            "store_longitude": "2.294803163425021",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "",
+            "color_scheme": "scheme-2"
+          }
+        }
+      },
+      "block_order": [
+        "pin_48RiTB",
+        "pin_WMmyEb",
+        "pin_XCBFTC",
+        "pin_cPbRhn",
+        "pin_yfbmfj"
+      ],
+      "name": "t:sections.store-locator.name",
+      "settings": {
+        "heading": "Vieni a trovarci nei nostri <em>store</em>",
+        "heading_size": "h3",
+        "layout": "image",
+        "image_grid_columns": "3",
+        "cards_height": 60,
+        "cards_height_auto": false,
+        "cards_height_mobile": 60,
+        "force_grid": false,
+        "api_key": "",
+        "zoom_level": 4,
+        "show_pin": true,
+        "card_layout": "layout-1",
+        "see_more_card_title": "",
+        "see_more_button_style": "button--outlined",
+        "see_more_button_label": "",
+        "see_more_button_link": "",
+        "see_more_search": false,
+        "see_more_color_scheme": "",
+        "section_width": "max-w-page",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_banner_8QUBL7",
+    "carousel_eb3ytP",
+    "seo_content_B4cN7a",
+    "seo_content_yE7riQ",
+    "blocks_pYQNrc",
+    "store_locator_tutti"
+  ]
+}

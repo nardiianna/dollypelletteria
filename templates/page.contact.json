@@ -1,0 +1,325 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "breadcrumbs": true,
+        "show_page_title": false,
+        "page_title_alignment": "text-center",
+        "info_title": "Come possiamo aiutarti?",
+        "info_content": "<p>Saremo lieti di rispondere alle tue richieste e accompagnarti nella scelta del prodotto più adatto alle tue esigenze.</p>",
+        "section_width": "max-w-narrower",
+        "color_scheme": "scheme-1",
+        "spacing_top": "2",
+        "spacing_bottom": "0"
+      }
+    },
+    "form": {
+      "type": "form-contact",
+      "blocks": {
+        "field_qaqAeN": {
+          "type": "field",
+          "settings": {
+            "column_factor": "3",
+            "heading": "Nome",
+            "type": "text",
+            "required": false,
+            "checked": false,
+            "placeholder": "",
+            "binding": "first_name",
+            "label_description": "",
+            "option_1": "",
+            "option_2": "",
+            "option_3": "",
+            "option_4": ""
+          }
+        },
+        "field_p8UeqH": {
+          "type": "field",
+          "settings": {
+            "column_factor": "3",
+            "heading": "Cognome",
+            "type": "text",
+            "required": false,
+            "checked": false,
+            "placeholder": "",
+            "binding": "last_name",
+            "label_description": "",
+            "option_1": "",
+            "option_2": "",
+            "option_3": "",
+            "option_4": ""
+          }
+        },
+        "field_CQfU3F": {
+          "type": "field",
+          "disabled": true,
+          "settings": {
+            "column_factor": "6",
+            "heading": "Contact Method",
+            "type": "checkbox",
+            "required": false,
+            "checked": false,
+            "placeholder": "",
+            "binding": "custom",
+            "label_description": "How do you want us to contact you?",
+            "option_1": "Email",
+            "option_2": "Phone",
+            "option_3": "SMS",
+            "option_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "field_qaqAeN",
+        "field_p8UeqH",
+        "field_CQfU3F"
+      ],
+      "settings": {
+        "section_width": "max-w-narrower",
+        "color_scheme": "scheme-1",
+        "spacing_top": "0",
+        "spacing_bottom": "0"
+      }
+    },
+    "seo_content_aTphxz": {
+      "type": "seo-content",
+      "disabled": true,
+      "name": "t:sections.seo-content.name",
+      "settings": {
+        "section_layout": "normal",
+        "heading": "Il nostro punto vendita",
+        "heading_size": "h3",
+        "text": "<p>Ti aspettiamo per farti scoprire collezioni sempre aggiornate, dettagli ricercati e accessori che valorizzano il tuo stile.</p>",
+        "content_alignment": "center",
+        "section_width": "max-w-narrower",
+        "color_scheme": "",
+        "spacing_inner": "2",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "api_key": "AIzaSyAgZ_45n_1PvfdBIpZkCO_dWDvLJOxSr8g",
+        "address_query": "Via Galatina, 73014 Gallipoli LE",
+        "zoom_level": 15,
+        "section_width": "max-w-full",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "store_locator_rfd83m": {
+      "type": "store-locator",
+      "blocks": {
+        "pin_jhKTMY": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "Gallipoli",
+            "store_country": "ITALIA",
+            "store_city": "",
+            "store_address": "Corso Roma, 23",
+            "store_mail_address": "email@digifist.com",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-18.30<br/>Domenica: chiuso</p>",
+            "store_latitude": "",
+            "store_longitude": "",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "chiamaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "store",
+            "store_pin_link": "shopify://pages/gallipoli",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_ge9i8r": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "France",
+            "store_city": "Paris",
+            "store_address": "Your store address",
+            "store_mail_address": "email@digifist.com",
+            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
+            "store_latitude": "41.902331905731444",
+            "store_longitude": "12.45445667605574",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Call",
+            "store_tel": "+01 234 567 8900",
+            "store_pin": "Directions",
+            "store_pin_link": "",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "pin_EerMNU": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "France",
+            "store_city": "Paris",
+            "store_address": "Your store address",
+            "store_mail_address": "email@digifist.com",
+            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
+            "store_latitude": "41.902331905731444",
+            "store_longitude": "12.45445667605574",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Call",
+            "store_tel": "+01 234 567 8900",
+            "store_pin": "Directions",
+            "store_pin_link": "",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "pin_tNy7z3": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "France",
+            "store_city": "Paris",
+            "store_address": "Your store address",
+            "store_mail_address": "email@digifist.com",
+            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
+            "store_latitude": "41.902331905731444",
+            "store_longitude": "12.45445667605574",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Call",
+            "store_tel": "+01 234 567 8900",
+            "store_pin": "Directions",
+            "store_pin_link": "",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "pin_VJnUHL": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "France",
+            "store_city": "Paris",
+            "store_address": "Your store address",
+            "store_mail_address": "email@digifist.com",
+            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
+            "store_latitude": "41.902331905731444",
+            "store_longitude": "12.45445667605574",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Call",
+            "store_tel": "+01 234 567 8900",
+            "store_pin": "Directions",
+            "store_pin_link": "",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "pin_jhKTMY",
+        "pin_ge9i8r",
+        "pin_EerMNU",
+        "pin_tNy7z3",
+        "pin_VJnUHL"
+      ],
+      "name": "t:sections.store-locator.name",
+      "settings": {
+        "heading": "Vieni a trovarci nei nostri <em>store</em>",
+        "heading_size": "h3",
+        "layout": "image",
+        "image_grid_columns": "3",
+        "cards_height": 60,
+        "cards_height_auto": false,
+        "cards_height_mobile": 60,
+        "api_key": "",
+        "zoom_level": 4,
+        "show_pin": true,
+        "card_layout": "layout-1",
+        "see_more_card_title": "",
+        "see_more_button_style": "button--outlined",
+        "see_more_button_label": "See all stores",
+        "see_more_button_link": "",
+        "see_more_search": false,
+        "see_more_color_scheme": "scheme-6",
+        "section_width": "max-w-page",
+        "color_scheme": "scheme-1",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "accordions_gDeGDe": {
+      "type": "accordions",
+      "blocks": {
+        "topic_JE76DD": {
+          "type": "topic",
+          "settings": {
+            "is_open": true,
+            "title": "Possiamo acquistare online e ritirare in negozio?",
+            "text": "<p>Per conoscere la disponibilità del servizio di ritiro in negozio ti invitiamo a contattare il punto vendita di riferimento. Il nostro staff sarà lieto di fornirti tutte le informazioni necessarie e assisterti durante l'acquisto.</p>",
+            "page": ""
+          }
+        },
+        "topic_A6aFD7": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Come posso sapere se un prodotto è disponibile?",
+            "text": "<p>Puoi verificare la disponibilità direttamente sul sito oppure contattare il negozio più vicino. Il nostro team sarà a disposizione per fornirti informazioni sui prodotti e sulle disponibilità nei diversi punti vendita.</p>",
+            "page": ""
+          }
+        },
+        "topic_mThiUw": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Avete prodotti per uomo e donna?",
+            "text": "<p>Sì, offriamo una vasta gamma di prodotti per uomo e donna, tra cui abbigliamento, accessori, borse e valigeria.</p>",
+            "page": ""
+          }
+        },
+        "topic_g6YyyH": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Qual è la differenza tra collezione e outlet?",
+            "text": "<p>Nei nostri store e online puoi trovare sia le ultime collezioni sia una selezione di prodotti outlet, con articoli di stagioni precedenti proposti a condizioni vantaggiose.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "topic_JE76DD",
+        "topic_A6aFD7",
+        "topic_mThiUw",
+        "topic_g6YyyH"
+      ],
+      "name": "t:sections.accordions.name",
+      "settings": {
+        "heading": "Domande Frequenti",
+        "heading_size": "h3",
+        "section_width": "max-w-narrower",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "seo_content_aTphxz",
+    "map",
+    "store_locator_rfd83m",
+    "accordions_gDeGDe"
+  ]
+}

@@ -1,0 +1,110 @@
+{% doc %}
+  @prompt
+    dammi la possibilità di inserire l'html (<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.860153219615!2d17.9894869!3d40.0562217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1346a6574d5a88cf%3A0x2f9c1246b09d9db4!2sCorso%20Roma%2C%2062%2C%2073014%20Gallipoli%20LE!5e0!3m2!1sit!2sit!4v1782307787156!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>) in modo che mi compaia una cartina geografica a tutto schermo, adatta l'altezza del widget alla mappa
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-map-container-{{ ai_gen_id }} {
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    display: block;
+  }
+
+  .ai-map-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: {{ block.settings.map_height_desktop }}px;
+    border-radius: {{ block.settings.border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-map-wrapper-{{ ai_gen_id }} iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-map-wrapper-{{ ai_gen_id }} {
+      height: {{ block.settings.map_height_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div
+  class="ai-map-container-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-map-wrapper-{{ ai_gen_id }}">
+    {% if block.settings.map_embed_code != blank %}
+      {{ block.settings.map_embed_code }}
+    {% else %}
+      <div class="ai-map-placeholder-{{ ai_gen_id }}" style="width: 100%; height: 100%; background-color: #f4f4f4; display: flex; align-items: center; justify-content: center; color: #666; font-size: 14px;">
+        Inserisci il codice HTML della mappa nelle impostazioni
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Mappa geografica",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Mappa"
+    },
+    {
+      "type": "html",
+      "id": "map_embed_code",
+      "label": "Codice HTML mappa"
+    },
+    {
+      "type": "range",
+      "id": "map_height_desktop",
+      "label": "Altezza desktop",
+      "min": 300,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "map_height_mobile",
+      "label": "Altezza mobile",
+      "min": 200,
+      "max": 600,
+      "step": 50,
+      "unit": "px",
+      "default": 400
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Larghezza desktop",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Raggio bordo",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mappa geografica"
+    }
+  ]
+}
+{% endschema %}
