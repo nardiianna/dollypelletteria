@@ -1007,6 +1007,20 @@ body.tooltip-mobile-open {
   display: none;
 }
 
+/* 8. Stack buttons vertically in overlay cards so they fit narrow columns */
+.store-locator-card__with-image .store-locator-card__actions,
+.store-locator-card__with-image--overlay .store-locator-card__actions {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-2);
+}
+.store-locator-card__with-image .store-locator-card__button,
+.store-locator-card__with-image--overlay .store-locator-card__button {
+  flex: unset;
+  width: 100%;
+  justify-content: center;
+}
+
 /* ============================================================ */
 
 @media (max-width: 749px) {

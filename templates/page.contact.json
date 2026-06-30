@@ -88,7 +88,7 @@
         "section_width": "max-w-narrower",
         "color_scheme": "scheme-1",
         "spacing_top": "0",
-        "spacing_bottom": "0"
+        "spacing_bottom": "4"
       }
     },
     "seo_content_aTphxz": {
@@ -121,138 +121,56 @@
         "spacing_bottom": "2"
       }
     },
-    "store_locator_rfd83m": {
-      "type": "store-locator",
+    "trust_indicators_contact": {
+      "type": "trust-indicators",
       "blocks": {
-        "pin_jhKTMY": {
-          "type": "pin",
+        "indicator_FTEb6z": {
+          "type": "indicator",
           "settings": {
-            "pin_title": "Gallipoli",
-            "store_country": "ITALIA",
-            "store_city": "",
-            "store_address": "Corso Roma, 23",
-            "store_mail_address": "email@digifist.com",
-            "store_opening_hours": "<p>Lun-Sab: 10.00-18.30<br/>Domenica: chiuso</p>",
-            "store_latitude": "",
-            "store_longitude": "",
-            "coordinate_title": "",
-            "button_style": "button--outlined",
-            "store_tel_button": "chiamaci",
-            "store_tel": "+39 0836234018",
-            "store_pin": "store",
-            "store_pin_link": "shopify://pages/gallipoli",
-            "color_scheme": "scheme-2"
+            "title": "Qualità selezionata",
+            "subheading": "Accessori scelti con attenzione per unire stile, praticità e tendenza.",
+            "link_label": "",
+            "link": "/",
+            "icon": "option-check_mark"
           }
         },
-        "pin_ge9i8r": {
-          "type": "pin",
+        "indicator_MeUatx": {
+          "type": "indicator",
           "settings": {
-            "pin_title": "",
-            "store_country": "France",
-            "store_city": "Paris",
-            "store_address": "Your store address",
-            "store_mail_address": "email@digifist.com",
-            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
-            "store_latitude": "41.902331905731444",
-            "store_longitude": "12.45445667605574",
-            "coordinate_title": "",
-            "button_style": "button--outlined",
-            "store_tel_button": "Call",
-            "store_tel": "+01 234 567 8900",
-            "store_pin": "Directions",
-            "store_pin_link": "",
-            "color_scheme": "scheme-4"
+            "title": "Spedizione veloce",
+            "subheading": "Ricevi i tuoi prodotti comodamente a casa in pochi giorni.",
+            "link_label": "",
+            "link": "/",
+            "icon": "option-box"
           }
         },
-        "pin_EerMNU": {
-          "type": "pin",
+        "indicator_B9Nfga": {
+          "type": "indicator",
           "settings": {
-            "pin_title": "",
-            "store_country": "France",
-            "store_city": "Paris",
-            "store_address": "Your store address",
-            "store_mail_address": "email@digifist.com",
-            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
-            "store_latitude": "41.902331905731444",
-            "store_longitude": "12.45445667605574",
-            "coordinate_title": "",
-            "button_style": "button--outlined",
-            "store_tel_button": "Call",
-            "store_tel": "+01 234 567 8900",
-            "store_pin": "Directions",
-            "store_pin_link": "",
-            "color_scheme": "scheme-4"
-          }
-        },
-        "pin_tNy7z3": {
-          "type": "pin",
-          "settings": {
-            "pin_title": "",
-            "store_country": "France",
-            "store_city": "Paris",
-            "store_address": "Your store address",
-            "store_mail_address": "email@digifist.com",
-            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
-            "store_latitude": "41.902331905731444",
-            "store_longitude": "12.45445667605574",
-            "coordinate_title": "",
-            "button_style": "button--outlined",
-            "store_tel_button": "Call",
-            "store_tel": "+01 234 567 8900",
-            "store_pin": "Directions",
-            "store_pin_link": "",
-            "color_scheme": "scheme-4"
-          }
-        },
-        "pin_VJnUHL": {
-          "type": "pin",
-          "settings": {
-            "pin_title": "",
-            "store_country": "France",
-            "store_city": "Paris",
-            "store_address": "Your store address",
-            "store_mail_address": "email@digifist.com",
-            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
-            "store_latitude": "41.902331905731444",
-            "store_longitude": "12.45445667605574",
-            "coordinate_title": "",
-            "button_style": "button--outlined",
-            "store_tel_button": "Call",
-            "store_tel": "+01 234 567 8900",
-            "store_pin": "Directions",
-            "store_pin_link": "",
-            "color_scheme": "scheme-4"
+            "title": "Supporto clienti",
+            "subheading": "Siamo a disposizione per aiutarti durante ogni fase dell'acquisto.",
+            "link_label": "",
+            "link": "/",
+            "icon": "theme-phone"
           }
         }
       },
       "block_order": [
-        "pin_jhKTMY",
-        "pin_ge9i8r",
-        "pin_EerMNU",
-        "pin_tNy7z3",
-        "pin_VJnUHL"
+        "indicator_FTEb6z",
+        "indicator_MeUatx",
+        "indicator_B9Nfga"
       ],
-      "name": "t:sections.store-locator.name",
+      "name": "t:sections.trust-indicators.name",
       "settings": {
-        "heading": "Vieni a trovarci nei nostri <em>store</em>",
-        "heading_size": "h3",
-        "layout": "image",
-        "image_grid_columns": "3",
-        "cards_height": 60,
-        "cards_height_auto": false,
-        "cards_height_mobile": 60,
-        "api_key": "",
-        "zoom_level": 4,
-        "show_pin": true,
-        "card_layout": "layout-1",
-        "see_more_card_title": "",
-        "see_more_button_style": "button--outlined",
-        "see_more_button_label": "See all stores",
-        "see_more_button_link": "",
-        "see_more_search": false,
-        "see_more_color_scheme": "scheme-6",
+        "swipe_on_mobile": true,
+        "slideshow_autoplay_interval": 3,
+        "content_direction": "vertical",
+        "content_alignment": "text-center",
+        "content_size": "h5",
+        "icon_size": 4.8,
+        "color_scheme_for_blocks": "scheme-2",
         "section_width": "max-w-page",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "spacing_top": "2",
         "spacing_bottom": "2"
       }
@@ -309,6 +227,148 @@
         "heading_size": "h3",
         "section_width": "max-w-narrower",
         "color_scheme": "",
+        "spacing_top": "4",
+        "spacing_bottom": "4"
+      }
+    },
+    "store_locator_rfd83m": {
+      "type": "store-locator",
+      "blocks": {
+        "pin_yfbmfj": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "GALATINA",
+            "store_address": "Piazza S. Pietro",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_20_DSC05512_476ed5d7-8a90-414c-96e7-67919c714f09.jpg",
+            "store_latitude": "",
+            "store_longitude": "",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "shopify://pages/galatina",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_48RiTB": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "GALLIPOLI",
+            "store_address": "Corso Roma, 23",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_19_DSC07163-scaled_e8466013-121d-407a-9c47-8b3a305d4c0f.jpg",
+            "store_latitude": "",
+            "store_longitude": "",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "shopify://pages/gallipoli",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_WMmyEb": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "NARDÒ",
+            "store_address": "Corso Galliano, 10",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_21_DSC05514_18724ab9-22ad-4397-8073-bfee2900a8cd.jpg",
+            "store_latitude": "",
+            "store_longitude": "",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "shopify://pages/nardo",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_XCBFTC": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "MAGLIE",
+            "store_address": "Piazza Capace",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_22_DSC06908_f1692f96-7f6f-4912-a0ce-090ac46cf669.jpg",
+            "store_latitude": "",
+            "store_longitude": "",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "shopify://pages/maglie",
+            "color_scheme": "scheme-2"
+          }
+        },
+        "pin_cPbRhn": {
+          "type": "pin",
+          "settings": {
+            "pin_title": "",
+            "store_country": "",
+            "store_city": "TRICASE",
+            "store_address": "Corso Roma, 2",
+            "store_mail_address": "",
+            "store_opening_hours": "<p>Lun-Sab: 10.00-19.30<br/>Domenica chiuso</p>",
+            "store_image": "shopify://shop_images/imgi_23_tricase-dolly-scaled.jpg",
+            "store_latitude": "",
+            "store_longitude": "",
+            "coordinate_title": "",
+            "button_style": "button--outlined",
+            "store_tel_button": "Contattaci",
+            "store_tel": "+39 0836234018",
+            "store_pin": "Esplora il negozio",
+            "store_pin_link": "shopify://pages/tricase",
+            "color_scheme": "scheme-2"
+          }
+        }
+      },
+      "block_order": [
+        "pin_yfbmfj",
+        "pin_48RiTB",
+        "pin_WMmyEb",
+        "pin_XCBFTC",
+        "pin_cPbRhn"
+      ],
+      "name": "t:sections.store-locator.name",
+      "settings": {
+        "heading": "Vieni a trovarci nei nostri <em>store</em>",
+        "heading_size": "h3",
+        "layout": "image",
+        "image_grid_columns": "3",
+        "cards_height": 60,
+        "cards_height_auto": false,
+        "cards_height_mobile": 60,
+        "force_grid": true,
+        "api_key": "",
+        "zoom_level": 4,
+        "show_pin": true,
+        "card_layout": "layout-1",
+        "see_more_card_title": "",
+        "see_more_button_style": "button--outlined",
+        "see_more_button_label": "",
+        "see_more_button_link": "",
+        "see_more_search": false,
+        "see_more_color_scheme": "",
+        "section_width": "max-w-page",
+        "color_scheme": "",
         "spacing_top": "2",
         "spacing_bottom": "2"
       }
@@ -319,7 +379,8 @@
     "form",
     "seo_content_aTphxz",
     "map",
-    "store_locator_rfd83m",
-    "accordions_gDeGDe"
+    "trust_indicators_contact",
+    "accordions_gDeGDe",
+    "store_locator_rfd83m"
   ]
 }

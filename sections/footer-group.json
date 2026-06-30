@@ -80,6 +80,21 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "brand_logo_dolly": {
+          "type": "brand",
+          "settings": {
+            "column_factor": 1,
+            "row_factor": 1,
+            "logo": "shopify://shop_images/Logo_dolly-bianco.png",
+            "logo_svg_code": "",
+            "logo_width": 160,
+            "logo_width_mobile": 120,
+            "text": "",
+            "content_position_vertical": "start",
+            "content_alignment": "start",
+            "content_alignment_for_mobile": "start"
+          }
+        },
         "link_list_NDtDLY": {
           "type": "link_list",
           "settings": {
@@ -147,9 +162,9 @@
         }
       },
       "block_order": [
+        "brand_logo_dolly",
         "link_list_NDtDLY",
         "link_list_6FaNjd",
-        "link_list_YDgTgy",
         "link_list_yWLMRg",
         "newsletter_FLx9Qh"
       ],
