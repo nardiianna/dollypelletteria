@@ -11,16 +11,61 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "breadcrumbs": true,
         "show_page_title": false,
         "page_title_alignment": "text-center",
-        "info_title": "Come possiamo aiutarti?",
-        "info_content": "<p>Saremo lieti di rispondere alle tue richieste e accompagnarti nella scelta del prodotto più adatto alle tue esigenze.</p>",
+        "info_title": "ENTRIAMO IN CONTATTO",
+        "info_content": "",
         "section_width": "max-w-narrower",
         "color_scheme": "scheme-1",
         "spacing_top": "2",
-        "spacing_bottom": "0"
+        "spacing_bottom": "6"
+      }
+    },
+    "page_banner_dUEPDq": {
+      "type": "page-banner",
+      "name": "t:sections.page-banner.name",
+      "settings": {
+        "enable_transparent_header": true,
+        "heading": "ENTRIAMO IN CONTATTO",
+        "heading_size": "h3",
+        "text": "",
+        "show_default_description": true,
+        "show_on_description": "desktop",
+        "content_position": "center",
+        "content_alignment": "center",
+        "media_position": "background",
+        "page_menu": "",
+        "enable_breadcrumbs": true,
+        "section_height": "50svh",
+        "content_width": "100%",
+        "image": "shopify://shop_images/imgi_166_POLDINA_TB_0078.jpg",
+        "show_controls_on_video": false,
+        "section_height_mobile": "50svh",
+        "show_controls_on_video_mobile": false,
+        "section_width": "max-w-narrow",
+        "color_scheme": "scheme-2",
+        "color_scheme_for_media": "scheme-2",
+        "spacing_top": "2",
+        "spacing_bottom": "6"
+      }
+    },
+    "seo_content_grbqCw": {
+      "type": "seo-content",
+      "name": "t:sections.seo-content.name",
+      "settings": {
+        "section_layout": "normal",
+        "heading": "Come possiamo aiutarti?",
+        "heading_size": "h4",
+        "text": "<p>Saremo lieti di rispondere alle tue richieste e accompagnarti nella scelta del prodotto più adatto alle tue esigenze.</p>",
+        "content_alignment": "center",
+        "section_width": "max-w-narrower",
+        "color_scheme": "",
+        "spacing_inner": "2",
+        "spacing_top": "4",
+        "spacing_bottom": "2"
       }
     },
     "form": {
@@ -175,62 +220,6 @@
         "spacing_bottom": "2"
       }
     },
-    "accordions_gDeGDe": {
-      "type": "accordions",
-      "blocks": {
-        "topic_JE76DD": {
-          "type": "topic",
-          "settings": {
-            "is_open": true,
-            "title": "Possiamo acquistare online e ritirare in negozio?",
-            "text": "<p>Per conoscere la disponibilità del servizio di ritiro in negozio ti invitiamo a contattare il punto vendita di riferimento. Il nostro staff sarà lieto di fornirti tutte le informazioni necessarie e assisterti durante l'acquisto.</p>",
-            "page": ""
-          }
-        },
-        "topic_A6aFD7": {
-          "type": "topic",
-          "settings": {
-            "is_open": false,
-            "title": "Come posso sapere se un prodotto è disponibile?",
-            "text": "<p>Puoi verificare la disponibilità direttamente sul sito oppure contattare il negozio più vicino. Il nostro team sarà a disposizione per fornirti informazioni sui prodotti e sulle disponibilità nei diversi punti vendita.</p>",
-            "page": ""
-          }
-        },
-        "topic_mThiUw": {
-          "type": "topic",
-          "settings": {
-            "is_open": false,
-            "title": "Avete prodotti per uomo e donna?",
-            "text": "<p>Sì, offriamo una vasta gamma di prodotti per uomo e donna, tra cui abbigliamento, accessori, borse e valigeria.</p>",
-            "page": ""
-          }
-        },
-        "topic_g6YyyH": {
-          "type": "topic",
-          "settings": {
-            "is_open": false,
-            "title": "Qual è la differenza tra collezione e outlet?",
-            "text": "<p>Nei nostri store e online puoi trovare sia le ultime collezioni sia una selezione di prodotti outlet, con articoli di stagioni precedenti proposti a condizioni vantaggiose.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "topic_JE76DD",
-        "topic_A6aFD7",
-        "topic_mThiUw",
-        "topic_g6YyyH"
-      ],
-      "name": "t:sections.accordions.name",
-      "settings": {
-        "heading": "Domande Frequenti",
-        "heading_size": "h3",
-        "section_width": "max-w-narrower",
-        "color_scheme": "",
-        "spacing_top": "4",
-        "spacing_bottom": "4"
-      }
-    },
     "store_locator_rfd83m": {
       "type": "store-locator",
       "blocks": {
@@ -369,18 +358,86 @@
         "see_more_color_scheme": "",
         "section_width": "max-w-page",
         "color_scheme": "",
-        "spacing_top": "2",
-        "spacing_bottom": "2"
+        "spacing_top": "4",
+        "spacing_bottom": "4"
+      }
+    },
+    "accordions_gDeGDe": {
+      "type": "accordions",
+      "blocks": {
+        "topic_JE76DD": {
+          "type": "topic",
+          "settings": {
+            "is_open": true,
+            "title": "Possiamo acquistare online e ritirare in negozio?",
+            "text": "<p>Per conoscere la disponibilità del servizio di ritiro in negozio ti invitiamo a contattare il punto vendita di riferimento. Il nostro staff sarà lieto di fornirti tutte le informazioni necessarie e assisterti durante l'acquisto.</p>",
+            "page": ""
+          }
+        },
+        "topic_A6aFD7": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Come posso sapere se un prodotto è disponibile?",
+            "text": "<p>Puoi verificare la disponibilità direttamente sul sito oppure contattare il negozio più vicino. Il nostro team sarà a disposizione per fornirti informazioni sui prodotti e sulle disponibilità nei diversi punti vendita.</p>",
+            "page": ""
+          }
+        },
+        "topic_mThiUw": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Avete prodotti per uomo e donna?",
+            "text": "<p>Sì, offriamo una vasta gamma di prodotti per uomo e donna, tra cui abbigliamento, accessori, borse e valigeria.</p>",
+            "page": ""
+          }
+        },
+        "topic_g6YyyH": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Qual è la differenza tra collezione e outlet?",
+            "text": "<p>Nei nostri store e online puoi trovare sia le ultime collezioni sia una selezione di prodotti outlet, con articoli di stagioni precedenti proposti a condizioni vantaggiose.</p>",
+            "page": ""
+          }
+        },
+        "topic_dPigFq": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Topic heading",
+            "text": "<p>Descriptive topic content body text</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "topic_JE76DD",
+        "topic_A6aFD7",
+        "topic_mThiUw",
+        "topic_g6YyyH",
+        "topic_dPigFq"
+      ],
+      "name": "t:sections.accordions.name",
+      "settings": {
+        "heading": "Domande Frequenti",
+        "heading_size": "h3",
+        "section_width": "max-w-narrower",
+        "color_scheme": "",
+        "spacing_top": "4",
+        "spacing_bottom": "6"
       }
     }
   },
   "order": [
     "main",
+    "page_banner_dUEPDq",
+    "seo_content_grbqCw",
     "form",
     "seo_content_aTphxz",
     "map",
     "trust_indicators_contact",
-    "accordions_gDeGDe",
-    "store_locator_rfd83m"
+    "store_locator_rfd83m",
+    "accordions_gDeGDe"
   ]
 }
