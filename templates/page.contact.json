@@ -29,7 +29,7 @@
       "name": "t:sections.page-banner.name",
       "settings": {
         "enable_transparent_header": true,
-        "heading": "ENTRIAMO IN CONTATTO",
+        "heading": "Entriamo in contatto",
         "heading_size": "h3",
         "text": "",
         "show_default_description": true,

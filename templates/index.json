@@ -22,7 +22,7 @@
             "subheading": "Stile e qualità dal 1979",
             "subheading_link": "",
             "text": "",
-            "button_link_1": "/",
+            "button_link_1": "shopify://collections/all",
             "button_link_1_type": "button",
             "button_label_1": "Scopri lo Shop",
             "button_style_1": "button--outlined",
@@ -776,7 +776,7 @@
         "color_scheme_arrows": "scheme-1",
         "section_width": "max-w-fluid",
         "color_scheme": "scheme-1",
-        "spacing_top": "4",
+        "spacing_top": "6",
         "spacing_bottom": "4"
       }
     },
@@ -818,26 +818,26 @@
     "shop_the_look_9hJ6AQ": {
       "type": "shop-the-look",
       "blocks": {
-        "slide_eQiKqa": {
-          "type": "slide",
-          "settings": {
-            "product": "coat-in-knit-with-turn-up-sleeves",
-            "dot_position_horizontal": 46,
-            "dot_position_vertical": 90
-          }
-        },
         "slide_EtGd4e": {
           "type": "slide",
           "settings": {
-            "product": "high-waisted-jeans-with-a-flared-design",
-            "dot_position_horizontal": 56,
-            "dot_position_vertical": 58
+            "product": "the-bridge-trolley-in-pelle-e-policarbonato-large-story-viaggio-trunks",
+            "dot_position_horizontal": 73,
+            "dot_position_vertical": 62
+          }
+        },
+        "slide_eQiKqa": {
+          "type": "slide",
+          "settings": {
+            "product": "the-bridge-bauletto-in-pelle-con-tracolla-removibile-story-donna-1",
+            "dot_position_horizontal": 60,
+            "dot_position_vertical": 79
           }
         }
       },
       "block_order": [
-        "slide_eQiKqa",
-        "slide_EtGd4e"
+        "slide_EtGd4e",
+        "slide_eQiKqa"
       ],
       "settings": {
         "heading": "Acquista il <em>look</em>",
@@ -845,7 +845,7 @@
         "text": "",
         "show_on_content": "desktop",
         "section_layout": "dual-content",
-        "image": "shopify://shop_images/251107_1ACLASSE_SS26_DAY_02_4557_1_1.jpg",
+        "image": "shopify://shop_images/imgi_176_960x1210_ff82d6d1-56fc-44e9-8717-9dcfd44a40db.jpg",
         "reverse_positions": false,
         "show_dots": true,
         "always_show_quick_add": false,
@@ -1320,6 +1320,7 @@
         "image_m9bXnL",
         "image_Y3B3TH"
       ],
+      "disabled": true,
       "custom_css": [
         ".swiper-slide {margin-right: 0px !important;}"
       ],
@@ -1398,6 +1399,7 @@
         "testimonial_tRUMQj",
         "testimonial_7PmBAx"
       ],
+      "disabled": true,
       "settings": {
         "heading": "I nostri clienti dicono di noi",
         "heading_size": "h3",
@@ -1438,6 +1440,80 @@
         "spacing_top": "6",
         "spacing_bottom": "6"
       }
+    },
+    "1782811002130867fb": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_h3x9mh": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#FFFFFF",
+            "arrows_iconColor": "#9A9A9A",
+            "shadow": "none",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_h3x9mh"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "normal",
+        "spacing_inner": "2",
+        "section_width": "max-w-page",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "1782811093f33759ba": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_mGfGnc": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_mGfGnc"
+      ],
+      "settings": {
+        "section_layout": "normal",
+        "spacing_inner": "2",
+        "section_width": "max-w-page",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
     }
   },
   "order": [
@@ -1461,6 +1537,8 @@
     "trust_indicators_Rn6ywg",
     "social_media_highlights_fVaa73",
     "testimonials_CMyt3F",
-    "blog_articles_ThCgzt"
+    "blog_articles_ThCgzt",
+    "1782811002130867fb",
+    "1782811093f33759ba"
   ]
 }

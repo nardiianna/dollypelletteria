@@ -265,8 +265,8 @@
         "button_style": "button--filled",
         "section_width": "max-w-page",
         "color_scheme": "",
-        "spacing_top": "0",
-        "spacing_bottom": "2"
+        "spacing_top": "2",
+        "spacing_bottom": "4"
       }
     },
     "multitile_BcCBh7": {
@@ -365,8 +365,8 @@
         "spacing_tile": "default",
         "color_scheme": "scheme-1",
         "section_width": "max-w-page",
-        "spacing_top": "2",
-        "spacing_bottom": "2"
+        "spacing_top": "4",
+        "spacing_bottom": "4"
       }
     },
     "store_locator_yPerQe": {
@@ -507,8 +507,8 @@
         "see_more_color_scheme": "scheme-1",
         "section_width": "max-w-page",
         "color_scheme": "",
-        "spacing_top": "2",
-        "spacing_bottom": "2"
+        "spacing_top": "4",
+        "spacing_bottom": "4"
       }
     }
   },

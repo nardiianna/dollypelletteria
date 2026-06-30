@@ -82,6 +82,7 @@
         },
         "e6d841d6-2f71-40b3-956a-912df13f9f6e": {
           "type": "inventory_notice",
+          "disabled": true,
           "settings": {
             "spacing_bottom": "1",
             "inventory_threshold": 15,
@@ -90,6 +91,7 @@
         },
         "b2dabe12-2158-4ba6-bc54-9baae453acf5": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "spacing_bottom": "1",
             "heading": "Free delivery and shipping",
@@ -103,6 +105,7 @@
         },
         "1ad0121e-439d-45c0-b45d-4f080836ade5": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "spacing_bottom": "1",
             "heading": "Secure online payment",
@@ -122,6 +125,7 @@
         },
         "content_grid_W3Mqy6": {
           "type": "content_grid",
+          "disabled": true,
           "settings": {
             "heading": "fast global shipping",
             "icon": "theme-box"
@@ -129,6 +133,7 @@
         },
         "content_grid_iCJFCN": {
           "type": "content_grid",
+          "disabled": true,
           "settings": {
             "heading": "Free returns",
             "icon": "theme-box"
@@ -136,6 +141,7 @@
         },
         "content_grid_HTRRPP": {
           "type": "content_grid",
+          "disabled": true,
           "settings": {
             "heading": "100% secure payments",
             "icon": "theme-box"
@@ -143,6 +149,7 @@
         },
         "content_grid_AAkHkC": {
           "type": "content_grid",
+          "disabled": true,
           "settings": {
             "heading": "Free climate compensated shipping",
             "icon": "theme-box"
@@ -257,6 +264,7 @@
         "collapsible_DYfCGt",
         "collapsible_QcDnKh"
       ],
+      "disabled": true,
       "settings": {
         "heading": "More info",
         "content_heading": "Similar items",
@@ -359,6 +367,7 @@
         "tile_kkJDV4",
         "tile_aT3xD9"
       ],
+      "disabled": true,
       "settings": {
         "block_order_mobile": false,
         "heading": "",

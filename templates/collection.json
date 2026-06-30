@@ -31,8 +31,8 @@
         "video_external_mobile": "",
         "show_controls_on_video_mobile": false,
         "section_width": "max-w-narrow",
-        "color_scheme": "scheme-1",
-        "color_scheme_for_media": "scheme-6",
+        "color_scheme": "scheme-2",
+        "color_scheme_for_media": "scheme-1",
         "spacing_top": "2",
         "spacing_bottom": "2"
       }
