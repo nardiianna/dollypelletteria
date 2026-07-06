@@ -39,6 +39,7 @@
     "product_card_badge_position": "start",
     "product_card_action_buttons_color_scheme": "scheme-6",
     "product_card_add_to_cart_btn_content": "icon",
+    "show_product_card_badges_sold": false,
     "swatches_option": "Color",
     "product_card_variants_display_desktop": "info",
     "swatches_shape": "circle",

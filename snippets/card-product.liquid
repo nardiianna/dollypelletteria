@@ -27,6 +27,9 @@
   assign show_variants = show_variants | default: true
 
   assign product_title_placeholder = 'product.label' | t
+
+  assign section_id = section_id | default: 'section'
+  assign card_add_to_cart_form_id = 'CardAddToCart-' | append: section_id | append: '-' | append: product_ref.id
 -%}
 
 {%- capture media -%}
@@ -238,7 +241,7 @@
 
     {%- if product_ref.variants.size == 1 and settings.product_card_enable_single_add_to_cart_button -%}
       {% comment %} Render | Product Add-To-Cart Form {% endcomment %}
-      <form class="product-card__add-to-cart--form">
+      <form class="product-card__add-to-cart--form" id="{{ card_add_to_cart_form_id }}">
         {{ variant_id_input }}
         <input type='hidden' name='quantity' value='1'>
         {{ add_to_cart_button }}
@@ -248,6 +251,38 @@
     {%- endif -%}
     {%- if product_ref.variants.size > 1 and settings.product_card_enable_quick_add_to_cart_button -%}
       {{ add_to_cart_button }}
+    {%- endif -%}
+  {%- endif -%}
+{%- endcapture -%}
+
+{% comment %} Product Title Cart Icon Button {% endcomment %}
+{%- capture card_cart_icon_button -%}
+  {%- if is_small == false -%}
+    {%- if product_ref.variants.size == 1 and settings.product_card_enable_single_add_to_cart_button -%}
+      <button
+        type="submit"
+        form="{{ card_add_to_cart_form_id }}"
+        class="product-card__cart-icon-button"
+        aria-label="{{ 'theme.actions.add_to_cart' | t }}"
+        {%- unless product_ref.available -%}disabled{%- endunless -%}
+      >
+        {%- render 'icon', icon_name: 'theme-bag' -%}
+      </button>
+    {%- elsif product_ref.variants.size > 1 and settings.product_card_enable_quick_add_to_cart_button -%}
+      <button
+        type="button"
+        class="quick-cart-drawer__trigger product-card__cart-icon-button"
+        aria-expanded="false"
+        aria-controls="quick-cart-drawer"
+        data-product-url="{{- product_ref.handle | prepend: '/products/' -}}"
+        aria-label="{{ 'product.choose_options' | t }}"
+        {%- unless product_ref.available -%}disabled{%- endunless -%}
+      >
+        {%- render 'icon', icon_name: 'theme-bag' -%}
+        <div class="quick-cart-drawer__trigger--loading">
+          {%- render 'loading-spinner' -%}
+        </div>
+      </button>
     {%- endif -%}
   {%- endif -%}
 {%- endcapture -%}
@@ -462,21 +497,24 @@
         assign product_card_info_classes = product_card_info_classes | append: ' product-card__price--inline'
       endif
     -%}
-    <div class="{{ product_card_info_classes }}">
-      {%- if settings.show_product_card_vendor -%}
-        <span class="product-card__vendor">
-          {{ product_ref.vendor | link_to_vendor }}
+    <div class="product-card__info-row">
+      <div class="{{ product_card_info_classes }}">
+        {%- if settings.show_product_card_vendor -%}
+          <span class="product-card__vendor">
+            {{ product_ref.vendor | link_to_vendor }}
+          </span>
+        {%- endif -%}
+        <h3 class="product-card__title">
+          <a href="{{ product_link_with_variant }}" class="product-card__link" tabindex="{% if is_in_drawer == true %}-1{% else %}0{% endif %}" data-product-link title="{{ 'product.go_to_title' | t : title: product_ref.title }}">
+            <span>{{ product_ref.title | default: product_title_placeholder }}</span>
+          </a>
+          {% render 'product-badges', product: product_ref %}
+        </h3>
+        <span class="product-card__price">
+          {%- render 'price', product: product_ref -%}
         </span>
-      {%- endif -%}
-      <h3 class="product-card__title">
-        <a href="{{ product_link_with_variant }}" class="product-card__link" tabindex="{% if is_in_drawer == true %}-1{% else %}0{% endif %}" data-product-link title="{{ 'product.go_to_title' | t : title: product_ref.title }}">
-          <span>{{ product_ref.title | default: product_title_placeholder }}</span>
-        </a>
-        {% render 'product-badges', product: product_ref %}
-      </h3>
-      <span class="product-card__price">
-        {%- render 'price', product: product_ref -%}
-      </span>
+      </div>
+      {{ card_cart_icon_button }}
     </div>
     <div class="product-card__options product-card__options--{{ settings.product_card_product_options_position }}">
       {% if settings.show_product_groups_on_product_card %}

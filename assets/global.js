@@ -2554,8 +2554,9 @@ if (!customElements.get("product-card")) {
     submitAddToCartForm(event) {
       event.preventDefault();
 
-      this.submitButton.setAttribute("disabled", "");
-      this.submitButton.classList.add("add-to-cart--is-disabled");
+      const submitButton = event.submitter || this.submitButton;
+      submitButton.setAttribute("disabled", "");
+      submitButton.classList.add("add-to-cart--is-disabled");
 
       const config = fetchConfig("javascript");
       config.headers["X-Requested-With"] = "XMLHttpRequest";
@@ -2594,8 +2595,8 @@ if (!customElements.get("product-card")) {
         })
         .catch((error) => { console.error(error) })
         .finally(() => {
-          this.submitButton.removeAttribute("disabled");
-          this.submitButton.classList.remove(
+          submitButton.removeAttribute("disabled");
+          submitButton.classList.remove(
             "add-to-cart--is-disabled"
           );
 
