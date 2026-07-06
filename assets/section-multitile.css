@@ -54,6 +54,9 @@
 @media screen and (max-width: 749px) {
   .section-multitile__block {
     grid-column: span 6;
+    grid-row: span 1;
+    height: auto;
+    overflow: visible;
   }
 
   .section-multitile__block:first-of-type {

@@ -37,8 +37,8 @@
         "show_unavailable_products": false,
         "section_width": "max-w-page",
         "color_scheme": "",
-        "spacing_top": "2",
-        "spacing_bottom": "2"
+        "spacing_top": "4",
+        "spacing_bottom": "6"
       }
     }
   },

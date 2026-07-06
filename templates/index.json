@@ -37,6 +37,7 @@
             "enable_media_overlay_desktop": true,
             "content_position_mobile": "center",
             "content_alignment_mobile": "center",
+            "image_mobile": "shopify://shop_images/Ducky_Sfondo_per_cellulare.png",
             "video_external_mobile": "",
             "show_controls_on_video_mobile": false,
             "enable_media_overlay_mobile": true
@@ -1458,8 +1459,8 @@
             "itemBackgroundColor": "#ffffff",
             "starsColor": "",
             "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#FFFFFF",
-            "arrows_iconColor": "#9A9A9A",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
             "shadow": "none",
             "border_active": false,
             "border_width": 2,
