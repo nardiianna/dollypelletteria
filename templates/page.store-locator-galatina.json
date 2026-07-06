@@ -301,7 +301,7 @@
             "store_tel_button": "Contattaci",
             "store_tel": "+39 0836234018",
             "store_pin": "Esplora il negozio",
-            "store_pin_link": "",
+            "store_pin_link": "shopify://pages/gallipoli",
             "color_scheme": "scheme-2"
           }
         },
@@ -322,7 +322,7 @@
             "store_tel_button": "Contattaci",
             "store_tel": "+39 0836234018",
             "store_pin": "Esplora il negozio",
-            "store_pin_link": "",
+            "store_pin_link": "shopify://pages/nardo",
             "color_scheme": "scheme-2"
           }
         },
@@ -343,7 +343,7 @@
             "store_tel_button": "Contattaci",
             "store_tel": "+39 0836234018",
             "store_pin": "Esplora il negozio",
-            "store_pin_link": "",
+            "store_pin_link": "shopify://pages/maglie",
             "color_scheme": "scheme-2"
           }
         },
@@ -364,7 +364,7 @@
             "store_tel_button": "Contattaci",
             "store_tel": "+39 0836234018",
             "store_pin": "Esplora il negozio",
-            "store_pin_link": "",
+            "store_pin_link": "shopify://pages/tricase",
             "color_scheme": "scheme-2"
           }
         },
@@ -385,7 +385,7 @@
             "store_tel_button": "Contattaci",
             "store_tel": "+39 0836234018",
             "store_pin": "Esplora il negozio",
-            "store_pin_link": "",
+            "store_pin_link": "shopify://pages/galatina",
             "color_scheme": "scheme-2"
           }
         }
