@@ -131,7 +131,7 @@
         "enable_products_count": true,
         "enable_sorting": true,
         "enable_opened_accordions": true,
-        "filters": "drawer",
+        "filters": "sidebar",
         "enable_range_slider_for_price_filter": false,
         "products_per_row": "4",
         "products_per_row_mobile": "2",

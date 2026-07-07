@@ -96,7 +96,7 @@
       ],
       "settings": {
         "layout": "layout-1",
-        "heading": "I nostri prodotti",
+        "heading": "Tutti i prodotti",
         "heading_size": "h3",
         "subheading": "",
         "button_label": "scopri di più",
@@ -783,12 +783,13 @@
     },
     "callout_banner_zjrrc9": {
       "type": "callout-banner",
+      "name": "Black friday",
       "settings": {
         "section_layout": "horizontal",
         "media_position": "full",
         "content_alignment": "start",
-        "subheading": "",
-        "heading": "Ultimissimi sconti",
+        "subheading": "Ultimissimi sconti",
+        "heading": "BLACK FRIDAY!",
         "heading_size": "h3",
         "text": "",
         "action_preference": "button",
@@ -810,8 +811,8 @@
         "show_timer_minutes": true,
         "show_timer_seconds": true,
         "section_width": "max-w-full",
-        "color_scheme": "scheme-1",
-        "color_scheme_for_content": "scheme-2",
+        "color_scheme": "scheme-6",
+        "color_scheme_for_content": "scheme-6",
         "spacing_top": "0",
         "spacing_bottom": "0"
       }
@@ -1519,6 +1520,7 @@
   },
   "order": [
     "1658995208ad05f95f",
+    "callout_banner_zjrrc9",
     "featured_products_4eL4yE",
     "full_width_banner_epa8ah",
     "featured_products_xGkreb",
@@ -1529,7 +1531,6 @@
     "16e24524-2040-41a4-b5ca-3a425d62879b",
     "full_width_banner_BAzegt",
     "highlighted_product_6R9Nc6",
-    "callout_banner_zjrrc9",
     "shop_the_look_9hJ6AQ",
     "multitile_nDxPrT",
     "compare_slider_yagWUh",
