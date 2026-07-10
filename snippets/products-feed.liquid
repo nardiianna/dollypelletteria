@@ -119,7 +119,7 @@
 
                 {%- for product in products_array limit: products_limit -%}
                   <div class="swiper-slide card-product-slider__slide">
-                    {% render 'card-product', product_ref: product, section_id: section.id, image_per_view: 4  %}
+                    {% render 'card-product', product_ref: product, section_id: section.id, image_per_view: 4, natural_ratio: true %}
                   </div>
                 {%- endfor -%}
               {%- endif -%}

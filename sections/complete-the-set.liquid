@@ -85,7 +85,7 @@
                     {%- if recommendations.performed and recommendations.products_count > 0 -%}
                       {%- for recommendation in recommendations.products -%}
                         <div class="swiper-slide card-product-slider__slide">
-                          {%- render 'card-product', product_ref: recommendation, section_id: section.id -%}
+                          {%- render 'card-product', product_ref: recommendation, section_id: section.id, natural_ratio: true -%}
                         </div>
                       {%- endfor -%}
                     {%- endif -%}

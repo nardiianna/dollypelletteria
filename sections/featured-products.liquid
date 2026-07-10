@@ -151,13 +151,13 @@
 
                       {%- for product in products_array limit: section.settings.max_products -%}
                         <div class="swiper-slide card-product-slider__slide">
-                          {% render 'card-product', product_ref: product, section_id: section.id %}
+                          {% render 'card-product', product_ref: product, section_id: section.id, natural_ratio: true %}
                         </div>
                       {%- endfor -%}
                     {%- else -%}
                       {%- for i in (1..section.settings.max_products) -%}
                         <div class="swiper-slide card-product-slider__slide">
-                          {% render 'card-product', product_ref: product, section_id: section.id %}
+                          {% render 'card-product', product_ref: product, section_id: section.id, natural_ratio: true %}
                         </div>
                       {%- endfor -%}
                     {%- endif -%}
