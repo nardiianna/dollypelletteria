@@ -65,8 +65,14 @@
                 {%- assign options = product.options_with_values[2].values -%}
               {%- endif -%}
               {%- if options != blank -%}
-                {% assign option_handle = options | json %}
-                  {% unless option_handle contains 'Default' %}
+                {%- liquid
+                  assign option_handle = options | json
+                  assign is_one_size_only = false
+                  if options.size == 1 and options.first.name == 'Taglia Unica'
+                    assign is_one_size_only = true
+                  endif
+                -%}
+                  {% unless option_handle contains 'Default' or is_one_size_only %}
                     <li>
                       {%- if options.size > 0 -%}
                         <fieldset class="product__variant-options js-product-card-options">

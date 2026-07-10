@@ -24,6 +24,10 @@
     {{ block.shopify_attributes }}
   >
     {%- for option in product.options_with_values -%}
+      {%- if option.values.size == 1 and option.values.first.name == 'Taglia Unica' -%}
+        {%- continue -%}
+      {%- endif -%}
+
       {%- liquid
         assign picker_type = block.settings.picker_type
         assign opt_swatch = false

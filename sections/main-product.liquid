@@ -141,7 +141,7 @@
                       </span>
                       {%- for option in product_sticky.options -%}
                         {% assign option_handle = option | handleize %}
-                        {% unless option_handle contains 'default' %}
+                        {% unless option_handle contains 'default' or option_handle == 'taglia-unica' %}
                           <span class="product__sticky-cart--separator"></span>
                           <span class="product__sticky-cart--opt-label">{{- option -}}</span>
                         {% endunless %}

@@ -25,6 +25,10 @@
       -%}
 
       {%- for option in product.options_with_values -%}
+        {%- if option.values.size == 1 and option.values.first.name == 'Taglia Unica' -%}
+          {%- continue -%}
+        {%- endif -%}
+
         {% capture size_guide %}
           {%- if option.name == block.settings.sizes_option and block.settings.size_guide_page != blank -%}
             <menu-drawer class="product__size-guide section__drawer">
