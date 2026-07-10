@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "favicon": "shopify://shop_images/favicon-dolly-d.png",
     "type_heading_font": "poppins_n4",
     "heading_font_scale": 100,
     "heading_letter_spacing": "-0.04em",
