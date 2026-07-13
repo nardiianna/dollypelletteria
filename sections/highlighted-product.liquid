@@ -309,6 +309,91 @@
                       endif
                     -%}
                   </p>
+                {%- when 'description' -%}
+                  {%- assign current_variant = product.selected_or_first_available_variant -%}
+                  {% capture metafield_for_product_variant %}
+                    {% if block.settings.metafield_for_product_variant != blank %}
+                      {%- liquid
+                        assign metafield_for_product_variant_namespace = block.settings.metafield_for_product_variant | split: '.' | first
+                        assign metafield_for_product_variant_key = block.settings.metafield_for_product_variant | split: '.' | last
+                        assign metafield_object = current_variant.metafields[metafield_for_product_variant_namespace][metafield_for_product_variant_key]
+                      -%}
+                      {% if metafield_object.value != blank %}
+                        <div class="product__metafield_for_variant-block" data-block-id="{{ block.id }}">
+                          {{ current_variant.metafields[metafield_for_product_variant_namespace][metafield_for_product_variant_key].value | newline_to_br }}
+                        </div>
+                        <script id="product__metafield_for_variant-block--{{ block.id }}" type="application/json">
+                          {
+                          {% for variant in product.variants %}
+                            "{{ variant.id }}": "{{ variant.metafields[metafield_for_product_variant_namespace][metafield_for_product_variant_key] | newline_to_br | replace: '<br />', '\n' | strip_newlines }}" {% unless forloop.last %},{% endunless %}
+                          {% endfor %}
+                          }
+                        </script>
+                      {% endif %}
+                    {% endif %}
+                  {% endcapture %}
+
+                  {%- assign product_block_class = 'product__description' | append: ' ' | append: product_block_class -%}
+                  {%- liquid
+                    assign product_description = ''
+                    assign show_block_content = false
+                    if metafield_for_product_variant != blank
+                      assign product_description = product_description | append: metafield_for_product_variant
+                    endif
+                    if block.settings.show_block_content and metafield_for_product_variant != blank
+                      assign show_block_content = true
+                    elsif metafield_for_product_variant == blank
+                      assign show_block_content = true
+                    endif
+                    if show_block_content
+                      assign product_description = product_description | append: product.description
+                    endif
+                  -%}
+                  <div class="{{ product_block_class }}" {{ block.shopify_attributes }}>
+                    {% if block.settings.behaviour == 'row' %}
+                      {{- 'section-accordions.css' | asset_url | stylesheet_tag -}}
+                      <accordion-default class="accordion product__accordion" data-hide-multiple>
+                        <details class="accordion__section" id="Details-{{- block.id -}}" {{- block.shopify_attributes -}}>
+                          <summary class="accordion__button h5 js-btn" id="Details-Summary-{{- block.id -}}">
+                            <span>
+                              {% liquid
+                                assign icon_alt = block.settings.heading
+                                if block.settings.custom_icon
+                                  echo block.settings.custom_icon | image_url: width: 24 | image_tag: alt: icon_alt
+                                elsif block.settings.icon != blank
+                                  render 'icon', icon_name: block.settings.icon
+                                endif
+                              %}
+                              {% if block.settings.heading != blank %}
+                                <span>{{- block.settings.heading -}}</span>
+                              {% else %}
+                                <span>{{ 'product.description' | t }}</span>
+                              {% endif %}
+                            </span>
+                            <div class="accordion__icon">
+                              {%- render 'icon', icon_name: 'theme-minus' -%}
+                              {%- render 'icon', icon_name: 'theme-minus' -%}
+                            </div>
+                          </summary>
+                          <div class="accordion__body" id="Details-Content-{{- block.id -}}">
+                            <div class="accordion__body-inner">
+                              {%- if product_description != blank -%}
+                                <div class="rte">
+                                  {{- product_description -}}
+                                </div>
+                              {%- endif -%}
+                            </div>
+                          </div>
+                        </details>
+                      </accordion-default>
+                    {% else %}
+                      {%- if product_description != blank -%}
+                        <div class="rte">
+                          {%- render 'text-truncator', text: product_description, max_lines: block.settings.text_truncate -%}
+                        </div>
+                      {%- endif -%}
+                    {% endif %}
+                  </div>
                 {%- when 'price' -%}
                   {%- liquid
                     unless product.gift_card?
@@ -907,6 +992,98 @@
             }
           ],
           "default": "none"
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "t:sections.main-product.blocks.description.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "spacing_bottom",
+          "label": "t:sections.global.spacing.bottom.for__blocks.label",
+          "options": [
+            {
+              "value": "0",
+              "label": "No"
+            },
+            {
+              "value": "1",
+              "label": "S"
+            },
+            {
+              "value": "2",
+              "label": "M"
+            },
+            {
+              "value": "3",
+              "label": "L"
+            },
+            {
+              "value": "4",
+              "label": "XL"
+            }
+          ],
+          "default": "1"
+        },
+        {
+          "type": "select",
+          "id": "behaviour",
+          "label": "t:sections.main-product.settings.behaviour.label",
+          "options": [
+            {
+              "value": "plain",
+              "label": "t:sections.main-product.settings.behaviour.options.plain.label"
+            },
+            {
+              "value": "row",
+              "label": "t:sections.main-product.settings.behaviour.options.accordion.label"
+            }
+          ],
+          "default": "plain"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:sections.global.element.heading.label",
+          "info": "t:sections.main-product.blocks.description.settings.heading.info"
+        },
+        {
+          "type": "range",
+          "id": "text_truncate",
+          "label": "t:sections.global.element.text.truncate.label",
+          "info": "t:sections.global.element.text.truncate.info",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "t:sections.global.element.icon.label",
+          "info": "t:sections.global.element.icon.info",
+          "default": "theme-box"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "t:sections.global.element.icon.custom_icon.label",
+          "info": "t:sections.global.element.icon.custom_icon.info"
+        },
+        {
+          "type": "text",
+          "id": "metafield_for_product_variant",
+          "label": "t:sections.global.metafield.for__product_variant.label",
+          "info": "t:sections.global.metafield.for__product_variant.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_block_content",
+          "label": "t:sections.main-product.blocks.all.settings.show_block_content.label",
+          "default": true
         }
       ]
     },

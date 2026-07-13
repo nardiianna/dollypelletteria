@@ -730,6 +730,15 @@
           "type": "divider",
           "settings": {}
         },
+        "description_hp01": {
+          "type": "description",
+          "settings": {
+            "spacing_bottom": "2",
+            "behaviour": "plain",
+            "text_truncate": 3,
+            "show_block_content": true
+          }
+        },
         "variant_picker_xQXtde": {
           "type": "variant_picker",
           "settings": {
@@ -761,6 +770,7 @@
         "text_mxHdQQ",
         "price_gKh4H6",
         "divider_QbYJcJ",
+        "description_hp01",
         "variant_picker_xQXtde",
         "buy_buttons_GYAyze",
         "product_link_gT4g9z"
