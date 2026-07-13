@@ -141,8 +141,8 @@
             "column_factor": 1,
             "row_factor": 1,
             "menu_layout": "vertical",
-            "menu": "docuemnti-legali",
-            "title": "Docuemnti Legali",
+            "menu": "documenti-legali",
+            "title": "Documenti Legali",
             "title_url": "shopify://policies/privacy-policy",
             "menu_link_opacity": 100,
             "show_first_menu_on_mobile": true
