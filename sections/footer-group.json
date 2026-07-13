@@ -82,6 +82,7 @@
       "blocks": {
         "brand_logo_dolly": {
           "type": "brand",
+          "disabled": true,
           "settings": {
             "column_factor": 1,
             "row_factor": 1,
@@ -121,20 +122,6 @@
             "show_first_menu_on_mobile": true
           }
         },
-        "link_list_YDgTgy": {
-          "type": "link_list",
-          "disabled": true,
-          "settings": {
-            "column_factor": 1,
-            "row_factor": 1,
-            "menu_layout": "vertical",
-            "menu": "",
-            "title": "CATEGORIE",
-            "title_url": "",
-            "menu_link_opacity": 100,
-            "show_first_menu_on_mobile": true
-          }
-        },
         "link_list_yWLMRg": {
           "type": "link_list",
           "settings": {
@@ -144,6 +131,19 @@
             "menu": "brand",
             "title": "Brand",
             "title_url": "",
+            "menu_link_opacity": 100,
+            "show_first_menu_on_mobile": true
+          }
+        },
+        "link_list_NMgGji": {
+          "type": "link_list",
+          "settings": {
+            "column_factor": 1,
+            "row_factor": 1,
+            "menu_layout": "vertical",
+            "menu": "docuemnti-legali",
+            "title": "Docuemnti Legali",
+            "title_url": "shopify://policies/privacy-policy",
             "menu_link_opacity": 100,
             "show_first_menu_on_mobile": true
           }
@@ -166,6 +166,7 @@
         "link_list_NDtDLY",
         "link_list_6FaNjd",
         "link_list_yWLMRg",
+        "link_list_NMgGji",
         "newsletter_FLx9Qh"
       ],
       "settings": {
