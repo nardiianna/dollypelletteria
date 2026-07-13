@@ -28,7 +28,7 @@
         assign one_size_value = option.values.first.name | downcase | strip
         assign is_one_size_only = false
         if option.values.size == 1
-          if one_size_value == 'taglia unica' or one_size_value == 'unica' or one_size_value == 'uni'
+          if one_size_value == 'taglia unica' or one_size_value == 'unica' or one_size_value == 'uni' or one_size_value == 'u'
             assign is_one_size_only = true
           endif
         endif
