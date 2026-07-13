@@ -67,9 +67,12 @@
               {%- if options != blank -%}
                 {%- liquid
                   assign option_handle = options | json
+                  assign one_size_value = options.first.name | downcase | strip
                   assign is_one_size_only = false
-                  if options.size == 1 and options.first.name == 'Taglia Unica'
-                    assign is_one_size_only = true
+                  if options.size == 1
+                    if one_size_value == 'taglia unica' or one_size_value == 'unica' or one_size_value == 'uni'
+                      assign is_one_size_only = true
+                    endif
                   endif
                 -%}
                   {% unless option_handle contains 'Default' or is_one_size_only %}
