@@ -712,7 +712,12 @@
         {% assign content_grid_first = content_grid_settings | first %}
         {% if block.id == content_grid_first.id %}
           {%- assign product_block_class = 'product__content-grid' | append: ' ' | append: product_block_class -%}
-          <div class="{{ product_block_class }}{% if content_grid_settings.size == 1 %} product__content-grid--single{% endif %}" {{ block.shopify_attributes }}>
+          {%- style -%}
+            #ContentGrid-{{ block.id }} {
+              --content-grid-columns: {{ content_grid_settings.size }};
+            }
+          {%- endstyle -%}
+          <div id="ContentGrid-{{ block.id }}" class="{{ product_block_class }}{% if content_grid_settings.size == 1 %} product__content-grid--single{% endif %}" {{ block.shopify_attributes }}>
             {% for item in content_grid_settings %}
               <div class="product__content-grid-item icon {% if content_grid_settings.size > 1 %} small-hide{% endif %}">
                 {%- liquid
