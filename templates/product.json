@@ -108,11 +108,11 @@
           "disabled": true,
           "settings": {
             "spacing_bottom": "1",
-            "heading": "Secure online payment",
+            "heading": "Possibilità di ritiro merce in negozio",
             "text_before_link": false,
             "icon": "theme-check",
             "link_to_resource": "none",
-            "heading_secondary": "Free delivery and shipping",
+            "heading_secondary": "Pagamenti Sicuri",
             "metafield_for_product_variant": "",
             "show_block_content": true
           }
@@ -123,36 +123,25 @@
             "spacing_bottom": "1"
           }
         },
-        "content_grid_W3Mqy6": {
-          "type": "content_grid",
-          "disabled": true,
-          "settings": {
-            "heading": "fast global shipping",
-            "icon": "theme-box"
-          }
-        },
         "content_grid_iCJFCN": {
           "type": "content_grid",
-          "disabled": true,
           "settings": {
-            "heading": "Free returns",
-            "icon": "theme-box"
+            "heading": "Reso Gratuito",
+            "icon": "theme-check-circle"
           }
         },
         "content_grid_HTRRPP": {
           "type": "content_grid",
-          "disabled": true,
           "settings": {
-            "heading": "100% secure payments",
+            "heading": "100% Pagamenti Sicuri",
             "icon": "theme-box"
           }
         },
         "content_grid_AAkHkC": {
           "type": "content_grid",
-          "disabled": true,
           "settings": {
-            "heading": "Free climate compensated shipping",
-            "icon": "theme-box"
+            "heading": "Consegna in tutta italia",
+            "icon": "theme-cart"
           }
         },
         "complementary_products_tKerNK": {
@@ -178,7 +167,6 @@
         "b2dabe12-2158-4ba6-bc54-9baae453acf5",
         "1ad0121e-439d-45c0-b45d-4f080836ade5",
         "7be6b89c-da83-4ff2-9b85-44fb28cbfa27",
-        "content_grid_W3Mqy6",
         "content_grid_iCJFCN",
         "content_grid_HTRRPP",
         "content_grid_AAkHkC",
