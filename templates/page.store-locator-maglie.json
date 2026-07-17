@@ -178,6 +178,29 @@
         "spacing_bottom": "2"
       }
     },
+    "callout_banner_3dtour": {
+      "type": "callout-banner",
+      "disabled": true,
+      "name": "t:sections.callout-banner.name",
+      "settings": {
+        "section_layout": "horizontal",
+        "media_position": "start",
+        "content_alignment": "center",
+        "subheading": "",
+        "heading": "Visita il negozio in 3D",
+        "heading_size": "h3",
+        "text": "",
+        "action_preference": "button",
+        "button_label": "Scopri il tour virtuale",
+        "button_link": "",
+        "button_style": "button--filled",
+        "section_width": "max-w-page",
+        "color_scheme": "scheme-1",
+        "color_scheme_for_content": "scheme-1",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
     "seo_content_B4cN7a": {
       "type": "seo-content",
       "name": "t:sections.seo-content.name",
@@ -378,6 +401,7 @@
     "main",
     "page_banner_8QUBL7",
     "carousel_eb3ytP",
+    "callout_banner_3dtour",
     "seo_content_B4cN7a",
     "seo_content_yE7riQ",
     "blocks_pYQNrc",
