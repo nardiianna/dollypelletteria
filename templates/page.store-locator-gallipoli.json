@@ -54,6 +54,38 @@
         "spacing_bottom": "6"
       }
     },
+    "featured_collections_QYide9": {
+      "type": "featured-collections",
+      "disabled": true,
+      "name": "3D",
+      "settings": {
+        "layout": "layout-1",
+        "heading": "Visita il negozio in 3D",
+        "heading_size": "h3",
+        "subheading": "",
+        "content_padding": "0",
+        "button_label": "Clicca qui",
+        "button_link": "https://my.matterport.com/show/?m=6gsgSxHi7ja&back=1",
+        "button_style": "button--filled",
+        "card_layout": "text",
+        "card_style": "normal",
+        "image_aspect_ratio": "auto",
+        "card_content_alignment": "center",
+        "card_title_style": "card-single-text",
+        "collection_product_count": "show",
+        "slides_per_view": 3,
+        "slides_per_view_mobile": 1,
+        "show_carousel_arrows": true,
+        "slideshow_alignment_center": false,
+        "enable_slideshow_overflow": false,
+        "slideshow_border": "none",
+        "section_width": "max-w-page",
+        "color_scheme": "scheme-5",
+        "color_scheme_for_cards": "scheme-1",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
     "carousel_eb3ytP": {
       "type": "carousel",
       "blocks": {
@@ -244,33 +276,11 @@
         "heading": "Visualizza la <em>Gallery</em>",
         "heading_size": "h3",
         "subheading": "",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Esplora il Negozio in 3D",
+        "button_link": "https://my.matterport.com/show/?m=6gsgSxHi7ja&back=1",
         "button_style": "button--filled",
         "section_width": "max-w-page",
         "color_scheme": "",
-        "spacing_top": "2",
-        "spacing_bottom": "2"
-      }
-    },
-    "callout_banner_3dtour": {
-      "type": "callout-banner",
-      "name": "t:sections.callout-banner.name",
-      "settings": {
-        "section_layout": "horizontal",
-        "media_position": "start",
-        "content_alignment": "center",
-        "subheading": "",
-        "heading": "Visita il negozio in 3D",
-        "heading_size": "h3",
-        "text": "",
-        "action_preference": "button",
-        "button_label": "Scopri il tour virtuale",
-        "button_link": "https://dollypelletterie.it/gallipoli/#vr",
-        "button_style": "button--filled",
-        "section_width": "max-w-page",
-        "color_scheme": "scheme-1",
-        "color_scheme_for_content": "scheme-1",
         "spacing_top": "2",
         "spacing_bottom": "2"
       }
@@ -473,8 +483,8 @@
   "order": [
     "main",
     "page_banner_8QUBL7",
+    "featured_collections_QYide9",
     "carousel_eb3ytP",
-    "callout_banner_3dtour",
     "seo_content_FcEgHq",
     "seo_content_C3td4J",
     "1782307738708e7922",
