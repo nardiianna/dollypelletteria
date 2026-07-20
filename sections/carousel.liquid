@@ -8,8 +8,12 @@
 {%- liquid
   assign section_button = blank
   if section.settings.button_label != blank
+    assign section_button_target = false
+    if section.settings.button_open_new_tab
+      assign section_button_target = '_blank'
+    endif
     capture section_button
-      render 'button', type: 'link', class: 'button custom_class', button_style: section.settings.button_style, value: section.settings.button_label, href: section.settings.button_link
+      render 'button', type: 'link', class: 'button custom_class', button_style: section.settings.button_style, value: section.settings.button_label, href: section.settings.button_link, target: section_button_target
     endcapture
   endif
 -%}
@@ -301,6 +305,12 @@
       "type": "url",
       "id": "button_link",
       "label": "t:sections.global.element.button.link.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_open_new_tab",
+      "label": "t:sections.global.element.button.open_in_new_tab.label",
+      "default": false
     },
     {
       "type": "select",

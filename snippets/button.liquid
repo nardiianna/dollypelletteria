@@ -62,7 +62,7 @@ Usage:
 {%- if value -%}
   {%- if type == 'link' -%}
     <a
-      {% if id %}id="{{- id -}}"{% endif %}{% if attr %}{{ attr }}{% endif %}{% if disabled %}disabled{% endif %}{% if target %} target="{{- target -}}"{% endif %}
+      {% if id %}id="{{- id -}}"{% endif %}{% if attr %}{{ attr }}{% endif %}{% if disabled %}disabled{% endif %}{% if target %} target="{{- target -}}"{% if target == '_blank' %} rel="noopener noreferrer"{% endif %}{% endif %}
       href="{{- href -}}"
       class="{{- css -}}">
 

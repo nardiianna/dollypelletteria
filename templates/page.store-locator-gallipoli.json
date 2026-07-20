@@ -278,6 +278,7 @@
         "subheading": "",
         "button_label": "Esplora il Negozio in 3D",
         "button_link": "https://my.matterport.com/show/?m=6gsgSxHi7ja&back=1",
+        "button_open_new_tab": true,
         "button_style": "button--filled",
         "section_width": "max-w-page",
         "color_scheme": "",

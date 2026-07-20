@@ -1300,6 +1300,9 @@
           },
           "icon": {
             "label": "Button icon"
+          },
+          "open_in_new_tab": {
+            "label": "Open link in new tab"
           }
         },
         "button_label": {
